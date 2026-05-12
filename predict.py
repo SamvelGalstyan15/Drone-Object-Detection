@@ -29,8 +29,7 @@ def predict_drone(image_path):
     ymax = int(ymax * orig_h)
 
     cv2.rectangle(original_image, (xmin, ymin), (xmax, ymax), (0, 255, 0), 3)
-    output_path = 'result.jpg'
-    cv2.imwrite(output_path, original_image)
+    cv2.imwrite('result.jpg', original_image)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
