@@ -5,7 +5,7 @@ import sys
 
 def predict_drone(image_path):
     try:
-        model = load_model('drone_detection_model.h5')
+        model = load_model('drone_detection_model.keras')
     except Exception as e:
         print(f"Ошибка загрузки модели: {e}")
       
