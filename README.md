@@ -62,4 +62,8 @@ To see the results, you need to mount your current folder to the container:
 📊 Results:
 
 
-<img width="714" height="704" alt="image" src="https://github.com/user-attachments/assets/eb4f93e8-c4b9-49c4-b743-b7090748c9dd" />
+<img width="582" height="559" alt="image" src="https://github.com/user-attachments/assets/6b25d838-3c71-4557-8a45-91c053126fbc" />
+ 
+
+ 
+
