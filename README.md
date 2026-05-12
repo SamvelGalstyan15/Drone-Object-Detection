@@ -29,6 +29,36 @@ To set up the environment and install all dependencies, run the following comman
    pip install -r requirements.txt
 ```
 
+
+
+
+🐳 Running with Docker
+
+
+
+You can run this model in an isolated container without installing Python or any libraries locally.
+1. Build the Docker image:
+
+```bash
+    docker build -t drone-detector .
+```
+
+2. Run prediction on your image:
+
+To see the results, you need to mount your current folder to the container:
+
+```bash
+    docker run --rm -v "$(pwd):/app" drone-detector your_image.jpg
+```
+
+
+
+
+
+
+
+
+
 📊 Results:
 
 
