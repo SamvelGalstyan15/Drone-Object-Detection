@@ -12,6 +12,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY predict.py .
-COPY drone_detection_model.h5 .
+COPY drone_detection_model.keras .
 
 ENTRYPOINT ["python", "predict.py"]
