@@ -8,6 +8,7 @@ def predict_drone(image_path):
         model = load_model('drone_detection_model.keras')
     except Exception as e:
         print(f"Ошибка загрузки модели: {e}")
+        return
       
     original_image = cv2.imread(image_path)
     if original_image is None:
